@@ -8,3 +8,7 @@ model.saveUserInCookie = function(user){
     var cookie = encodeURIComponent(JSON.stringify(user));
     $.cookie("atmuser", cookie);
 };
+
+model.recupActu = function(start, end){
+    
+}
