@@ -9,17 +9,21 @@
     <link rel="stylesheet" href="../View/Design/HeaderFooter.css">
 </head>
 
-<body onload="controler.init()">
-    <header></header>
+<body>
+    <?php
+        include("Design/Header.php");
+    ?>
 
     <section class="listeActualite" onload="controler.loadActu()">
         <h1>Actualités :</h1>
 
     </section>
     
-    <button onclick="controler.loadActu()"></button>
+    <button class="load_more" onclick="controler.loadActu()">Charger plus</button>
 
-    <footer></footer>
+    <?php
+        include("Design/Footer.php");
+    ?>
 
     <script src="../Script/JQuery.js"></script>
     <script src="../Script/Controler.js"></script>

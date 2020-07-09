@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="../View/Design/SujetForum.css">
   <link rel="stylesheet" href="../View/Design/HeaderFooter.css">
-  <script src="../Framework/ckeditor/ckeditor.js"></script>
 
   <title>Forum ALE Escalade</title>
 </head>
