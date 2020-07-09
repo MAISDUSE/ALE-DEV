@@ -1,10 +1,13 @@
 var view = {};
 
-view.initHeader = function(){
-    $("header").load("../View/Design/Header.html");
-}
+view.affichageActualites = function(liste){
+    
+    /*Formater l'affichage
+        for(actu of liste){
+            ...
+            $("listeActualite").append(...);
+        }
+    */
 
-view.initFooter = function(){
-    $("footer").load("../View/Design/Footer.html");
 }
 
