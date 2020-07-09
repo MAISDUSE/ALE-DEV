@@ -1,0 +1,104 @@
+.wrapper{
+  padding:0 20px;
+	margin: 5%;
+}
+
+.contact-form{
+  max-width: 50%;
+  margin: 0 auto;
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  box-shadow : 0 0 10px rgba(0,0,0,0.13);
+  top:0;
+  left: 25%;
+
+}
+.input-fields .message{
+  display: flex;
+  flex-direction: column;
+  margin-right:10%;
+}
+
+form{
+  margin: 0 10px;
+}
+
+.Informations{
+  display: flex;
+}
+
+.valider{
+  text-align: center;
+}
+.valider input{
+  border: 1px solid #c5ecfd;
+  border-radius: 5px;
+  margin: auto;
+  width: 75%;
+  height: 100%;
+  border-width: 1px;
+  padding: 2px;
+  color : black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.valider input:hover {
+  color : white;
+  background-color: #d66b0b;
+}
+
+
+
+.input, .message textarea{
+  margin: 10px 0;
+  background: transparent;
+  border:0;
+  border-bottom: 2px solid #c5ecfd;
+  padding: 10px;
+  color : #c5ecfd;
+  width: 100%;
+}
+
+.message{
+  margin-left: 10%;
+}
+
+
+label,p{
+  color : #c5ecfd
+}
+.message textarea{
+  height:212px;
+}
+
+::-webkit-input-placeholder{
+  color : #c5ecfd;
+}
+::-moz-input-placeholder{
+  color : #c5ecfd;
+}
+
+textarea{
+  resize: none;
+}
+
+@media screen and (max-width: 1024px){
+  html{
+    height: 100%;
+    width: 100%;
+  }
+  .wrapper{
+    margin-top: 25pt;
+  }
+  footer{
+    position: absolute;
+    bottom: 0;
+  }
+  .contact-form{
+    max-width: 100%;
+  }
+
+}

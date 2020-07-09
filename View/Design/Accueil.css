@@ -1,0 +1,165 @@
+body {
+    height: 100%;
+}
+
+
+/*------------------------------------------------------------------------------
+                              Actuzlité
+------------------------------------------------------------------------------*/
+
+
+/*@media screen and (min-width: 1368pt) {*/
+
+.listeActualite {
+    width: 60%;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10pt rgba(0, 0, 0, 0.13);
+    padding: 30pt;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    border-radius: 5pt;
+    color: #c5ecfd;
+}
+
+.listeActualite h1 {
+    margin-bottom: 20pt;
+    font-size: 2.5em;
+}
+
+.actualite {
+    width: 720pt;
+    height: 480pt;
+    margin: auto;
+    margin-bottom: 20pt;
+    position: relative;
+    border-radius: 8pt;
+}
+
+.actualite .actualiteZ3 {
+    width: 720pt;
+    height: 480pt;
+    font-size: 2em;
+    position: absolute;
+    z-index: 3;
+    border-radius: 3pt;
+    bottom: 5pt;
+}
+
+.actualite .actualiteZ3 .txt {
+    position: absolute;
+    bottom: 8pt;
+}
+
+.txt {
+    width: 75%;
+}
+
+.actualite .actualiteZ2 {
+    width: 720pt;
+    height: 480pt;
+    border-radius: 3pt;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 73%);
+    position: absolute;
+    z-index: 2;
+}
+
+.actualite .actualiteZ1 {
+    max-height: 480pt;
+    max-width: 720pt;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    z-index: 1;
+}
+
+.load_more {
+    display: inline-block;
+    margin: auto;
+    border-radius: 20px;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #c5ecfd;
+    padding: 5px;
+}
+
+.button_article {
+    display: flex;
+    justify-content: space-around;
+}
+
+article {
+    margin-bottom: 5%;
+}
+
+
+/*}*/
+
+
+/****************************************************************************************************************
+*****************************************************************************************************************
+*****************************************************************************************************************/
+
+@media screen and (max-width: 1367pt) {
+    .listeActualite {
+        width: 100%;
+        margin: 50pt 0pt;
+        background: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 0 10pt rgba(0, 0, 0, 0.13);
+        padding: 30pt;
+        margin-bottom: 5%;
+        border-radius: 5pt;
+        color: #c5ecfd;
+    }
+    .listeActualite h1 {
+        margin-bottom: 20pt;
+        font-size: 2.5em;
+    }
+    .actualite {
+        max-width: 100%;
+        min-width: auto;
+        height: 200pt;
+        margin: auto;
+        margin-bottom: 20pt;
+        position: relative;
+        border-radius: 8pt;
+    }
+    .actualite .actualiteZ3 {
+        max-width: 100%;
+        min-height: auto;
+        height: 200pt;
+        font-size: 2em;
+        position: absolute;
+        z-index: 3;
+        border-radius: 3pt;
+        bottom: 5pt;
+    }
+    .actualite .actualiteZ3 .txt {
+        position: absolute;
+        bottom: 8pt;
+    }
+    .txt {
+        width: 75%;
+        font-size: 0.5em;
+    }
+    .actualite .actualiteZ2 {
+        width: 100%;
+        height: 100%;
+        max-height: 200pt;
+        border-radius: 3pt;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 73%);
+        position: absolute;
+        z-index: 2;
+    }
+    .actualite .actualiteZ1 {
+        max-width: 100%;
+        min-height: auto;
+        height: 200pt;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        z-index: 1;
+    }
+}

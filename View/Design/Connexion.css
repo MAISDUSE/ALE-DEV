@@ -1,0 +1,188 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    margin: 50pt auto;
+    height: auto;
+    width: 100%;
+}
+
+.MessgErreur {
+    display: flex;
+    margin: 2% 0% 2% 0%;
+    justify-content: space-around;
+    border-color: red;
+    background-color: rgb(251, 77, 77);
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.wrapper {
+    width: auto;
+    max-width: 75%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    display: inline;
+}
+
+.contact-form {}
+
+.input-fields .message {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10%;
+}
+
+form {
+    margin: 0 10px;
+}
+
+h2 {
+    color: #c5ecfd
+}
+
+legend {
+    color: #c5ecfd;
+    font-size: 1.5em;
+}
+
+fieldset {
+    margin: 20pt;
+    display: block;
+}
+
+.input,
+.message .input {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+
+
+/*.message{
+  margin-top: 22.75%;
+  margin-left: 10%
+}*/
+
+.message div {
+    display: flex;
+}
+
+label,
+p {
+    color: #c5ecfd;
+    font-size: 12px;
+}
+
+.message textarea {
+    height: 212px;
+}
+
+::-webkit-input-placeholder {
+    color: #c5ecfd;
+}
+
+::-moz-input-placeholder {
+    color: #c5ecfd;
+}
+
+textarea {
+    resize: none;
+}
+
+.elements {
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    padding: 30px;
+    border-radius: 5px;
+    color: #c5ecfd;
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+    text-align: center;
+}
+
+.addArticle form {
+    color: white;
+    display: inline-block;
+    margin: auto;
+}
+
+.addArticle form label {
+    color: white;
+    font-size: 2em;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    font-family: "Roboto Cn", sans-serif;
+    font-size: 12px;
+}
+
+.valider {
+    text-align: center;
+}
+
+.valider input {
+    border: 1px solid #c5ecfd;
+    border-radius: 5px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    border-width: 1px;
+    padding: 2px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+.valider input:hover {
+    color: white;
+    background-color: #d66b0b;
+}
+
+textarea {
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+}
+
+@media screen and (max-width: 1024px) {
+    .section {
+        width: auto;
+        height: auto;
+    }
+    footer {
+        width: auto;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+    }
+}
