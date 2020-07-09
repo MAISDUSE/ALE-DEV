@@ -6,7 +6,8 @@
     <link rel="stylesheet" href="../View/Design/HeaderFooter.css">
     <link rel="stylesheet" href="../View/Design/OutilAdministratif.css">
   </head>
-  <body>
+  <body onload="controler.init()">
+    <header></header>
     <div class="outils">
       <h2>Outils :</h2>
       <form action="../Controler/OutilAdministratif.ctrl.php" method="post" enctype="multipart/form-data">
@@ -23,5 +24,13 @@
         <button type="button" name="export">Exporter le CSV ...</button>
       </a>
     </div>
+
+    <footer></footer>
+
+    <script src="../Script/JQuery.js"></script>
+    <script src="../Script/Controler.js"></script>
+    <script src="../Script/Model.js"></script>
+    <script src="../Script/View.js"></script>
+
   </body>
 </html>

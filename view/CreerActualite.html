@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../View/Design/HeaderFooter.css">
     <script src="../Framework/ckeditor/ckeditor.js"></script>
   </head>
-  <body>
+  <body onload="controler.init()">
+
+    <header></header>
 
       <div class="CreerActualite">
         <h2>Ajouter une actualité :</h2>
@@ -31,6 +33,15 @@
             </div>
         </form>
     </div>
+
+    <footer></footer>
+
+
+    <script src="../Script/JQuery.js"></script>
+    <script src="../Script/Controler.js"></script>
+    <script src="../Script/Model.js"></script>
+    <script src="../Script/View.js"></script>
+
   </body>
 
 </html>

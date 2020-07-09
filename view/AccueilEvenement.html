@@ -9,19 +9,20 @@
     <link rel="stylesheet" href="../View/Design/HeaderFooter.css">
 </head>
 
-<body>
+<body onload="controler.init()">
+
+    <header></header>
     <section class="listeEvenement">
         <h1>Les évenements :</h1>
 
-        <form class="creerEvenement" action="../Controler/CreerEvenement.ctrl.php" method="post">
-            <div class="boutonCreer">
-                <input type="submit" name="creer" value="Ajouter un évenement">
-            </div>
-        </form>
-
     </section>
 
-    </section>
+    <footer></footer>
+
+    <script src="../Script/JQuery.js"></script>
+    <script src="../Script/Controler.js"></script>
+    <script src="../Script/Model.js"></script>
+    <script src="../Script/View.js"></script>
 
 </body>
 
