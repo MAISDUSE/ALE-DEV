@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="../View/Design/HeaderFooter.css">
     <link rel="stylesheet" href="../View/Design/Adherent.css">
   </head>
-  <body onload="controler.init()">
+  <body>
 
-    <header></header> 
+    <?php
+        include("Design/Header.php");
+    ?>
     <section>
       <div class="col1">
         <h1>Civilité</h1>
@@ -37,7 +39,9 @@
       </div>
     </section>
 
-    <footer></footer>
+    <?php
+        include("Design/Footer.php");
+    ?>
     <script src="../Script/JQuery.js"></script>
     <script src="../Script/Controler.js"></script>
     <script src="../Script/Model.js"></script>

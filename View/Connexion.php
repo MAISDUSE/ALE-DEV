@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="../View/Design/Connexion.css">
 
   </head>
-  <body onload="controler.init()">
+  <body>
 
-    <header></header>
+    <?php
+        include("Design/Header.php");
+    ?>
     <div class ="section">
         <div class="wrapper">
           <h2>Connexion </h2>
@@ -31,7 +33,9 @@
           </div>
         </div>
 
-        <footer></footer>
+        <?php
+        include("Design/Footer.php");
+        ?>
 
         <script src="../Script/JQuery.js"></script>
         <script src="../Script/Controler.js"></script>

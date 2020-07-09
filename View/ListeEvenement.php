@@ -7,9 +7,11 @@
     <link rel="stylesheet" href="../View/Design/Listevalue.css">
     <link rel="stylesheet" href="../View/Design/HeaderFooter.css">
   </head>
-  <body onload="controler.init()">
+  <body>
 
-    <header></header>
+    <?php
+        include("Design/Header.php");
+    ?>
     <a href="../Controler/CreerEvenement.ctrl.php"><h2>Créer un évenement</h2></a>
       <section>
         <div class="officiel">
@@ -24,7 +26,9 @@
         <p></p>
       </section>
 
-      <footer></footer>
+      <?php
+        include("Design/Footer.php");
+    ?>
 
       <script src="../Script/JQuery.js"></script>
       <script src="../Script/Controler.js"></script>

@@ -10,9 +10,11 @@
 
 </head>
 
-<body onload="controler.init()">
+<body>
 
-    <header></header>
+    <?php
+    include("Design/Header.php");
+    ?>
     <div class="section">
         <div class="wrapper">
 
@@ -37,8 +39,7 @@
                                 <label for="age">Date de naissance : </label>
                                 <input type="date" name="age" placeholder="jj/mm/aa" class="input" required><br>
                                 <label for="adresse">Adresse : </label>
-                                <input type="text" name="adresse" placeholder="EX : 12 Rue 8 Mai 1945" class="input"
-                                    required>
+                                <input type="text" name="adresse" placeholder="EX : 12 Rue 8 Mai 1945" class="input" required>
                                 <label for="codepostal">Code Postal : </label>
                                 <input type="text" name="codepostal" placeholder="Ex: 75000" class="input" required>
                                 <label for="mail">Adresse mail :</label>
@@ -76,20 +77,15 @@
                                     <legend>Contact (Obligatoire)</legend>
                                     <div class="input-fields">
                                         <label for="nomContact">Nom du Contact : </label>
-                                        <input type="text" name="nomContact" placeholder="Nom du Contact" class="input"
-                                            required>
+                                        <input type="text" name="nomContact" placeholder="Nom du Contact" class="input" required>
                                         <label for="prenomContact">Prénom du Contact : </label>
-                                        <input type="text" name="prenomContact" placeholder="Prenom du Contact"
-                                            class="input" required>
+                                        <input type="text" name="prenomContact" placeholder="Prenom du Contact" class="input" required>
                                         <label for="mailContact">Adresse mail du Contact :</label>
-                                        <input type="mail" name="mailContact" placeholder="Email" class="input"
-                                            required>
+                                        <input type="mail" name="mailContact" placeholder="Email" class="input" required>
                                         <label for="telContact">Num. Tél Contact:</label>
-                                        <input type="tel" name="telContact" placeholder="EX : 06 12 23 45 56"
-                                            class="input" required>
+                                        <input type="tel" name="telContact" placeholder="EX : 06 12 23 45 56" class="input" required>
                                         <label for="adresseContact">Adresse:</label>
-                                        <input type="text" name="adresseContact" placeholder="EX : 12 Rue 8 Mai 1945"
-                                            class="input" required>
+                                        <input type="text" name="adresseContact" placeholder="EX : 12 Rue 8 Mai 1945" class="input" required>
                                     </div>
                                 </fieldset>
                             </div>
@@ -102,7 +98,9 @@
         </div>
     </div>
 
-    <footer></footer>
+    <?php
+        include("Design/Footer.php");
+    ?>
 
     <script src="../Script/JQuery.js"></script>
     <script src="../Script/Controler.js"></script>

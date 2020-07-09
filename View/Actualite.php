@@ -9,11 +9,15 @@
     <link rel="stylesheet" href="../View/Design/HeaderFooter.css">
 </head>
 
-<body onload="controler.init()">
+<body>
 
-    <header></header>
+    <?php
+        include("Design/Header.php");
+    ?>
 
-    <footer></footer>
+    <?php
+        include("Design/Footer.php");
+    ?>
 
         <script src="../Script/JQuery.js"></script>
         <script src="../Script/Controler.js"></script>

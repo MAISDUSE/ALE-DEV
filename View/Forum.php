@@ -9,9 +9,11 @@
     <title>Forum ALE Escalade</title>
 </head>
 
-<body onload="controler.init()">
+<body>
 
-    <header></header>
+    <?php
+    include("Design/Header.php");
+    ?>
 
     <div class="listeSujet">
         <div class="entete">
@@ -35,7 +37,9 @@
 
     </div>
 
-    <footer></footer>
+    <?php
+        include("Design/Footer.php");
+    ?>
 
     <script src="../Script/JQuery.js"></script>
     <script src="../Script/Controler.js"></script>
