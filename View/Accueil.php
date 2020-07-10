@@ -11,18 +11,21 @@
 
 <body>
     <?php
-        include("Design/Header.php");
+    include("Design/Header.php");
     ?>
 
-    <section class="listeActualite" onload="controler.loadActu()">
-        <h1>Actualités :</h1>
+    <article>
+        <section class="listeActualite" onload="controler.loadActu()">
+            <h1>Actualités :</h1>
 
-    </section>
-    
-    <button class="load_more" onclick="controler.loadActu()">Charger plus</button>
+        </section>
+        <div class="button_article">
+            <button class="load_more" onclick="controler.loadActu()">Charger plus</button>
+        </div>
+    </article>
 
     <?php
-        include("Design/Footer.php");
+    include("Design/Footer.php");
     ?>
 
     <script src="../Script/JQuery.js"></script>
