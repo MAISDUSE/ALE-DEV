@@ -17,7 +17,7 @@ body {
     box-shadow: 0 0 10pt rgba(0, 0, 0, 0.13);
     padding: 30pt;
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     border-radius: 5pt;
     color: #c5ecfd;
 }
@@ -76,10 +76,12 @@ body {
 
 .load_more {
     display: inline-block;
-    width: 10%;
-    height: 30%;
     margin: auto;
-    justify-content: space-around;
+    border-radius: 20px;
+    border-color: black;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #c5ecfd;
+    padding: 5px;
 }
 
 .button_article {
@@ -88,7 +90,7 @@ body {
 }
 
 article {
-    margin-bottom: 20px;
+    margin-bottom: 5%;
 }
 
 

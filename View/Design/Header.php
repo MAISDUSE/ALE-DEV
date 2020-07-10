@@ -11,11 +11,11 @@
         <nav>
             <h1 class="brand"><a href="Accueil.php"><img src="../Ressources/Ale_black.png" alt="Logo ALE-Escalade"></a></h1>
             <ul>
-                <li><a href="Forum.php">Forum</a></li>
-                <li><a href="Connexion.php">Connexion</a></li>
-                <li><a href="Inscription.php">Pré-inscription</a></li>
-                <li><a href="ListeEvenement.php">Evénements</a></li>
-                <li><a href="Contact.php">Contactez-Nous</a></li>
+                <li><a href="../View/Forum.php">Forum</a></li>
+                <li><a href="../View/Connexion.php">Connexion</a></li>
+                <li><a href="../View/Inscription.php">Pré-inscription</a></li>
+                <li><a href="../View/ListeEvenement.php">Evénements</a></li>
+                <li><a href="../View/Contact.php">Contactez-Nous</a></li>
             </ul>
         </nav>
     </div>

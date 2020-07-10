@@ -17,8 +17,15 @@
         <div class="wrapper">
           <h2>Connexion </h2>
 
-            <form action="../Controler/Connexion.ctrl.php" method="post">
-                <p class="MessgErreur"></p>
+            <form action="../PHP/Connexion.php" method="post">
+              <p class="MessgErreur">
+                <?php
+                if(isset($_SESSION['erreur'])){
+                  echo($_SESSION['erreur']);
+                  unset($_SESSION['erreur']);
+                }
+                ?>
+              </p>
               <div class="input-fields">
                <label for="mail">Mail : </label>
                <input type="email" name="mail" placeholder="Votre Mail" class="input" required>
